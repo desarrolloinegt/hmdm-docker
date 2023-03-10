@@ -36,13 +36,13 @@ ENV PROTOCOL=https
 #ENV BASE_DOMAIN=your-domain.com
 
 # Comment it to use custom certificates
-ENV HTTPS_LETSENCRYPT=true
+#ENV HTTPS_LETSENCRYPT=true
 # Mount the custom certificate path if custom certificates must be used
 # ENV_HTTPS_CERT_PATH is the path to certificates and keys inside the container
 #ENV HTTPS_CERT_PATH=/cert
-ENV HTTPS_CERT=cert.pem
-ENV HTTPS_FULLCHAIN=fullchain.pem
-ENV HTTPS_PRIVKEY=privkey.pem
+#ENV HTTPS_CERT=cert.pem
+#ENV HTTPS_FULLCHAIN=fullchain.pem
+#ENV HTTPS_PRIVKEY=privkey.pem
 
 EXPOSE 8080
 EXPOSE 8443
